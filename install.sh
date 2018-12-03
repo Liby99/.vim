@@ -4,7 +4,7 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
 # First remove the existing files
-if [ ! -f ~/.vimrc ]; then
+if [ -e ~/.vimrc ]; then
   read -e -p "Detected ~/.vimrc file. Remove it? [Y/n] " YN
   if [[ $YN == "y" || $YN == "Y" || $YN == "" ]]; then
     echo "Removing ~/.vimrc"
@@ -15,7 +15,7 @@ if [ ! -f ~/.vimrc ]; then
   fi
 fi
 
-if [ ! -f ~/.vim ]; then
+if [ -e ~/.vim ]; then
   read -e -p "Detected ~/.vim directory. Remove it? [Y/n] " YN
   if [[ $YN == "y" || $YN == "Y" || $YN == "" ]]; then
     echo "Removing ~/.vim"
@@ -29,3 +29,4 @@ fi
 # Then link the vim and vimrc
 ln -s "${DIR}/.vimrc" ~/.vimrc
 ln -s "${DIR}/.vim" ~/.vim
+echo "Successfully linked .vimrc and .vim"

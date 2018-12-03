@@ -4,3 +4,9 @@
 [submodule ".vim/bundle/vimbufsync"]
 	path = .vim/bundle/vimbufsync
 	url = https://github.com/let-def/vimbufsync
+[submodule ".vim/bundle/vim-jsx"]
+	path = .vim/bundle/vim-jsx
+	url = https://github.com/mxw/vim-jsx.git
+[submodule ".vim/bundle/coquille"]
+	path = .vim/bundle/coquille
+	url = https://github.com/trefis/coquille.git

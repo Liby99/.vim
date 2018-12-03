@@ -10,6 +10,8 @@ hi Normal ctermbg=Black ctermfg=White
 hi ErrorMsg		guibg=#A50000 guifg=White	term=standout		ctermbg=DarkRed ctermfg=White 
 hi WarningMsg 		guibg=#A50000 guifg=White	term=standout		ctermfg=LightRed 
 
+hi Visual       ctermbg=white     ctermfg=blue
+
 hi CursorLine                                           term=none               cterm=none ctermbg=236
 
 hi TabLineFill                                                                  ctermbg=242 ctermfg=240

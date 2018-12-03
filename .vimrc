@@ -181,7 +181,6 @@ set nobackup
 set nowb
 set noswapfile
 
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -205,7 +204,6 @@ set wrap "Wrap lines
 
 " Color the column
 set colorcolumn=100
-
 
 """"""""""""""""""""""""""""""
 " => Visual mode related

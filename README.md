@@ -8,13 +8,13 @@ settings
 Go to any directory you want to put this in, type
 
 ```
-$ git clone https://github.com/liby99/libyvim.git
+$ git clone https://github.com/liby99/liby-vim.git
 ```
 
 Go into the directory and run the installation script
 
 ```
-$ cd libyvim
+$ cd liby-vim
 $ ./install.sh
 ```
 

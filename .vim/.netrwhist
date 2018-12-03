@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/liby99/Library/Mobile Documents/com~apple~CloudDocs/Documents/Chronicle/Senior/Curriculum/CIS 500'
+let g:netrw_dirhist_2='/Users/liby99/Library/Mobile Documents/com~apple~CloudDocs/Documents/Chronicle/Senior/Curriculum/CIS 500/HW1'
+let g:netrw_dirhist_3='/Users/liby99/Documents/Projects/menhera/menhera'
+let g:netrw_dirhist_4='/Users/liby99/Documents/Projects/menhera/menhera/src'
+let g:netrw_dirhist_5='/Users/liby99/Documents/Projects/menhera/menhera/src/core'
+let g:netrw_dirhist_6='/Users/liby99/Library/Mobile Documents/com~apple~CloudDocs/Documents/Chronicle/Senior/Projects/happstack-server/.git'
+let g:netrw_dirhist_7='/Users/liby99/Library/Mobile Documents/com~apple~CloudDocs/Documents/Chronicle/Senior/Projects/saemanga/src/api'
+let g:netrw_dirhist_8='/Users/liby99/Library/Mobile Documents/com~apple~CloudDocs/Documents/Chronicle/Senior/Projects/todo/src/components/styles'
+let g:netrw_dirhist_9='/Users/liby99/Library/Mobile Documents/com~apple~CloudDocs/Documents/Chronicle/Senior/Projects/todo/src/styles'

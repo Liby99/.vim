@@ -1,3 +1,6 @@
 [submodule ".vim/bundle/typescript-vim"]
 	path = .vim/bundle/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
+[submodule ".vim/bundle/vimbufsync"]
+	path = .vim/bundle/vimbufsync
+	url = https://github.com/let-def/vimbufsync

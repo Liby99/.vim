@@ -365,13 +365,6 @@ map <leader>s? z=
 " => airline
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_theme='light'
-" let g:airline#themes#dark#palette = {}
-" let s:airline_a_normal   = [ 'blue' , '#dfff00' , 17  , 190 ]
-" let s:airline_b_normal   = [ '#ffffff' , '#444444' , 255 , 238 ]
-" let s:airline_c_normal   = [ '#9cffd3' , '#202020' , 85  , 234 ]
-" Mirror airline_a/b/c to airline_x/y/z
-" let g:airline#themes#dark#palette.normal = airline#themes#generate_color_map(s:airline_a_normal, s:airline_b_normal, s:airline_c_normal)
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Misc

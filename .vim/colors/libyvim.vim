@@ -30,7 +30,7 @@ hi CursorLineNr                             term=bold       ctermfg=blue ctermbg
 hi Directory 		guifg=#CCCCFF 			term=bold		ctermfg=LightCyan 
 hi WildMenu 		guibg=Black guifg=#FF9911 	term=standout		ctermbg=Black ctermfg=Yellow
 hi Folded		guibg=#25345F guifg=#CCCCCC	term=standout		ctermbg=DarkBlue ctermfg=LightGrey
-hi FoldColumn 		guibg=#25345F guifg=#FFFFFF	term=standout		ctermbg=DarkBlue ctermfg=LightGrey
+hi FoldColumn 		guibg=#25345F guifg=#FFFFFF	term=standout		ctermbg=236 ctermfg=LightGrey
 
 hi Cursor		guibg=#BFE4FF guifg=Black
 hi lCursor		guibg=#255A70 guifg=Black

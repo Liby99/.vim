@@ -22,9 +22,9 @@ hi Search		guibg=#FFFFFF guifg=#25345F 	term=reverse		ctermbg=DarkBlue ctermfg=W
 hi IncSearch		guifg=#FF9911 guibg=#804000				ctermfg=darkblue ctermbg=gray
 
 hi StatusLine		guifg=#FFFFFF guibg=#25345F gui=none	term=none	ctermfg=White ctermbg=blue cterm=none
-hi StatusLineNC		guifg=#CCCCCC guibg=#25345F gui=none	term=none	ctermfg=LightGrey ctermbg=blue  cterm=none
-hi VertSplit		guifg=#CCCCCC guibg=#25345F gui=none	term=none	ctermfg=LightGrey ctermbg=DarkBlue  cterm=none
-hi LineNr		guifg=#25345F 				term=underline	ctermfg=244 ctermbg=240
+hi StatusLineNC		guifg=#CCCCCC guibg=#25345F gui=none	term=none	ctermfg=LightGrey ctermbg=237 cterm=none
+hi VertSplit		guifg=#CCCCCC guibg=#25345F gui=none	term=none	ctermfg=LightGrey ctermbg=237 cterm=none
+hi LineNr		guifg=#25345F 				term=underline	ctermfg=244 ctermbg=235
 hi CursorLineNr                             term=bold       ctermfg=blue ctermbg=235
 
 hi Directory 		guifg=#CCCCFF 			term=bold		ctermfg=LightCyan 
@@ -69,4 +69,4 @@ hi Prototype                                            term=none               
 hi Ignore 		guifg=grey20 						ctermfg=DarkGrey 
 hi ModeMsg 		gui=bold			term=bold		cterm=bold 
 hi MoreMsg 		guifg=#FF9911 gui=bold		term=bold		ctermfg=LightGreen  
-hi NonText 		guifg=LightBlue guibg=grey30 gui=bold 	term=bold	ctermfg=LightBlue 
+hi NonText 		guifg=grey20 guibg=grey30 gui=bold 	term=bold	ctermfg=240

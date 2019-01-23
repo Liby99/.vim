@@ -137,8 +137,8 @@ endif
 
 
 " Add a bit extra margin to the left
-set foldcolumn=1
-
+" set foldcolumn=1
+" setlocal foldmethod=syntax
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
@@ -293,6 +293,7 @@ set number
 set ruler
 set mouse=a
 set cursorline
+set fillchars=vert:\  " Change the vertical line fill to be empty
 
 colorscheme libyvim
 
@@ -360,12 +361,6 @@ map <leader>sn ]s
 map <leader>sp [s
 map <leader>sa zg
 map <leader>s? z=
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => airline
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:airline#extensions#tabline#enabled = 1
-let g:airline_theme='dark_minimal'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Misc
@@ -446,10 +441,29 @@ function! <SID>BufcloseCloseIt()
    endif
 endfunction
 
-" Make VIM remember position in file after reopen
-" if has("autocmd")
-"   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
-"endif
-
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Pathogen
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 execute pathogen#infect()
 au FileType coq call coquille#CoqideMapping()
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Nerd tree 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let NERDTreeShowHidden = 1
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
+let g:NERDTreeNodeDelimiter = "\u00a0"
+let g:NERDTreeStatusline = ""
+let g:NERDTreeWinSize=36
+let g:nerdtree_tabs_open_on_console_startup=1
+autocmd vimenter * NERDTree
+autocmd vimenter * wincmd p
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => airline
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#show_buffers = 0
+let g:airline_theme='dark_minimal'

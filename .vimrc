@@ -404,14 +404,6 @@ function! VisualSelection(direction, extra_filter) range
     let @" = l:saved_reg
 endfunction
 
-execute pathogen#infect()
-
-" Maps Coquille commands to CoqIDE default key bindings
-au FileType coq call coquille#CoqideMapping()
-
-" Maps Coquille commands to <F2> (Undo), <F3> (Next), <F4> (ToCursor)
-au FileType coq call coquille#FNMapping()
-
 " Returns true if paste mode is enabled
 function! HasPaste()
     if &paste
@@ -445,7 +437,7 @@ endfunction
 " => Pathogen
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 execute pathogen#infect()
-au FileType coq call coquille#CoqideMapping()
+au FileType coq call coquille#LibyMapping()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Nerd tree 
@@ -457,9 +449,6 @@ let g:NERDTreeNodeDelimiter = "\u00a0"
 let g:NERDTreeStatusline = ""
 let g:NERDTreeWinSize=36
 let g:nerdtree_tabs_open_on_console_startup=1
-autocmd vimenter * NERDTree
-autocmd vimenter * wincmd p
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => airline

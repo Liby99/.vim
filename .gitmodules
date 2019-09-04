@@ -28,3 +28,6 @@
 [submodule ".vim/bundle/vim-fish"]
 	path = .vim/bundle/vim-fish
 	url = https://github.com/dag/vim-fish.git
+[submodule ".vim/bundle/vim-es6"]
+	path = .vim/bundle/vim-es6
+	url = https://github.com/isruslan/vim-es6

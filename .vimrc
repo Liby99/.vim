@@ -200,7 +200,7 @@ set tw=100
 
 set ai "Auto indent
 set si "Smart indent
-set wrap "Wrap lines
+" set wrap "Wrap lines
 
 " Color the column
 set colorcolumn=100

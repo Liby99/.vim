@@ -8,7 +8,7 @@ endif
 
 let g:colors_name = "libyvim"
 
-hi Normal ctermbg=Black ctermfg=White
+hi Normal ctermbg=None ctermfg=White
 
 hi ErrorMsg guibg=#A50000 guifg=White term=standout ctermbg=DarkRed ctermfg=White 
 hi WarningMsg guibg=#A50000 guifg=White term=standout ctermfg=LightRed 
